@@ -1,13 +1,15 @@
 import React from 'react';
-import Layout from './components/Layout/Layout';
+import { Normalize } from 'styled-normalize';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="app">
+    <>
+      <Normalize />
       <Layout>
         <p>body</p>
       </Layout>
-    </div>
+    </>
   );
 }
 
